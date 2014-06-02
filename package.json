@@ -1,7 +1,11 @@
 {
   "name": "rastreiojs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rastreio de encomendas dos correios",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcosisocram/rastreiojs.js"
+  },
   "author": {
     "name": "Marcos Paulo",
     "email": "marcosisocram@gmail.com",
