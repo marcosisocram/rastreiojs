@@ -1,5 +1,5 @@
 # rastreiojs  
-[![NPM](https://nodei.co/npm/rastreiojs.png)](https://nodei.co/npm/rastreiojs/)
+[![NPM](https://nodei.co/npm/rastreiojs.svg)](https://nodei.co/npm/rastreiojs/)
 ---
 
 ## CLI
@@ -31,7 +31,10 @@ $ npm install --save rastreiojs
 ```js
 var rastreiojs = require('rastreiojs');
 
-rastreiojs(['AA123456789BB'], {parse: 'json'});
+rastreiojs(['AA123456789BB'], {parse: 'json'})
+.then(function(data){
+  console.log(data);
+}, function(err){});
 ```
 ```json
 {
