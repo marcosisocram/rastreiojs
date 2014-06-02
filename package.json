@@ -1,0 +1,34 @@
+{
+  "name": "rastreiojs",
+  "version": "0.1.0",
+  "description": "Rastreio de encomendas dos correios",
+  "author": {
+    "name": "Marcos Paulo",
+    "email": "marcosisocram@gmail.com",
+    "url": "http://marcosisocram.github.io/"
+  },
+  "license": "MIT",
+  "bin": {
+    "rastreiojs": "cli.js"
+  },
+  "keywords": [
+    "rastreio",
+    "correios",
+    "rastreamento"
+  ],
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "get-stdin": "^0.1.0",
+    "minimist": "^0.1.0",
+    "request": "^2.36.0",
+    "xml2js": "~0.4.4",
+    "promise": "~5.0.0",
+    "moment": "~2.6.0"
+  }
+}
