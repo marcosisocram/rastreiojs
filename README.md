@@ -1,5 +1,5 @@
 # rastreiojs  
-[![NPM](https://nodei.co/npm/rastreiojs.svg)](https://nodei.co/npm/rastreiojs/)
+[![NPM](https://nodei.co/npm/rastreiojs.png)](https://nodei.co/npm/rastreiojs/)
 ---
 
 ## CLI

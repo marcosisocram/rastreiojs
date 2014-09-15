@@ -23,7 +23,7 @@ function help() {
 function init(objs) {
   rastreiojs(objs, {resultado: argv.resultado, parse: argv.parse})
   .then(function(data){
-    console.log(data);
+    console.log(data.toUpperCase());
   }, function(err){
     console.log(err);
   });
