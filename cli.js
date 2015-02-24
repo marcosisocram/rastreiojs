@@ -1,5 +1,7 @@
 #!/usr/bin/env node
+
 'use strict';
+
 var stdin = require('get-stdin');
 var argv = require('minimist')(process.argv.slice(2));
 var pkg = require('./package.json');
