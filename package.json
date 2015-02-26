@@ -34,6 +34,7 @@
     "xml2js": "~0.4.4",
     "promise": "~5.0.0",
     "moment": "~2.6.0",
-    "http-post": "^0.1.1"
+    "http-post": "^0.1.1",
+    "iconv-lite": "~0.4.7"
   }
 }
