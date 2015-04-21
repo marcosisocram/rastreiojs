@@ -2,10 +2,12 @@
 
 'use strict';
 
-var stdin = require('get-stdin');
+var stdin = require('get-stdin'),
+  pkg = require('./package.json'),
+  rastreiojs = require('./index');
+
 var argv = require('minimist')(process.argv.slice(2));
-var pkg = require('./package.json');
-var rastreiojs = require('./index');
+
 var input = argv._;
 
 function help() {
@@ -18,7 +20,7 @@ function help() {
     'Exemplo:',
     '  $ rastreiojs AA123456789BB --parse xml',
     '  $ rastreiojs AA123456789BB CC123456789DD --parse json',
-    '  $ cat rastreios.txt | rastreiojs',
+    '  $ cat rastreios.txt | rastreiojs'
 	].join('\n'));
 }
 
@@ -27,7 +29,7 @@ function init(objs) {
   .then(function(data){
     console.log(data.toUpperCase());
   }, function(err){
-    console.log(err);
+    console.error(err);
   });
 
 }
